@@ -24,7 +24,7 @@ def fall_distance (time):
     # Caculate the distance using the formula, (1/2) * gravty * time^2
     distance = (1/2) * gravity * (time**2)
 
-    distance = round(distance, 3)
+    distance = round(distance, 5)
 
     # Returns the value of fall_distance rounded to the third decimal point
     return distance
