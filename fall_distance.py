@@ -11,14 +11,18 @@ def fall_distance (time):
     time (float): the time in seconds that it takes for the object to fall.
 
     Returns:
-    float: the distance in meters the object has to fall.
+    float: the distance in meters the object has fallen.
     """
 
     # Gravity equals 9.8
     gravity = 9.8
 
+    # If time is 0 return to 0
+    if time == 0:
+        return 0.0
+
     # Caculate the distance using the formula, (1/2) * gravty * time^2
-    distance = (1/2) * gravity * (time^2)
+    distance = (1/2) * gravity * (time**2)
 
     distance = round(distance, 3)
 
