@@ -29,4 +29,3 @@ def fall_distance (time):
 
     # Returns the value of fall_distance rounded to the fifth decimal point
     return distance
-
