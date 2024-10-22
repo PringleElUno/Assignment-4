@@ -22,6 +22,7 @@ def fib(n):
             a = b
             b = c
             n = n - 1
-        return b
 # Return the number to the position of the Fibonacci sequence
+        return b
+
 n = int(input("Enter a number: "))
