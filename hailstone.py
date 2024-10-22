@@ -21,5 +21,3 @@ def hailstone(h):
         steps += 1
 # Return the number of steps
     return steps
-# User inputs a positive integer to run test
-h = int(input("Enter a positive integer"))
