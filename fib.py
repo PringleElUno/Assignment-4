@@ -24,5 +24,3 @@ def fib(n):
             n = n - 1
 # Return the number to the position of the Fibonacci sequence
         return b
-
-n = int(input("Enter a number: "))
